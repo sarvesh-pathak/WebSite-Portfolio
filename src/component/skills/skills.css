@@ -1,0 +1,33 @@
+.skills__container{
+    display: grid;
+    grid-template-columns: 1fr 0fr;
+    gap: 2rem;
+}
+.skills__container>div{
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border:1px solid transparent;
+    transition: var(--transition);
+}
+.skills__container>div:hover{
+    background: linear-gradient(45deg,transparent,var(--color-primary),transparent);
+    border-color: var(--color-bg);
+    cursor: default;
+}
+.skills__container>div>h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-light);
+}
+.Content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2rem;
+}
+@media screen and (max-width:1024px) {
+    
+}
+@media screen and (max-width:600px) {
+ 
+}
