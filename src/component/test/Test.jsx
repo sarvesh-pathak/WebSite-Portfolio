@@ -42,7 +42,7 @@ export default class Test extends React.Component{
             <div className='pppp'>
           <article className='Details1'>
               <GiAchievement className='Icons'/>
-              <h4>First Time Solving All Question In Competition</h4>
+              <h4>First Time Solving All Question In A Competition</h4>
               <small className='text-ligth'>April</small></article>
               </div>
             </div>

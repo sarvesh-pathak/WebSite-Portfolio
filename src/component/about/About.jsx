@@ -1,6 +1,5 @@
 import React from 'react'
 import './about.css'
-import ME from '../../needs/abc1.png'
 import {FaUserGraduate} from "react-icons/fa"
 import{GiHammerNails} from"react-icons/gi"
 import{MdOutlineSportsMotorsports} from "react-icons/md"
@@ -52,7 +51,7 @@ const About = () => {
             </article>
             </div>
             <p className='mi'>
-              Grab a coffe or tea as YOU read about me.<br/>Hi I am Sarvesh Pathak I am a B.Tech Student currently in my 3rd year. I am a Software develper who like to work at backend. I love to solve 
+              Grab a coffe or tea as YOU read about me.<br/>Hi I am Sarvesh Pathak I am a B.Tech Student currently in my 3rd year. I am a Software develper who likes to work at backend. I love to solve 
               problem and likely to say yes to a hard one. I have been writing programmes for past 7 years 
             </p>
 
