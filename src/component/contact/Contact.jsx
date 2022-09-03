@@ -15,6 +15,7 @@ const Contact = () => {
             <MdEmail className='con__op__icon'/>
             <h4>Email</h4>
             <h4>sarveshgeepathak@gmail.com</h4>
+            <a href='mailto:sarveshgeepathak@gmail.com' target="_blank">Send a message</a>
           </article>
           <article className='con__op'>
             <FaTelegram className='con__op__icon'/>
@@ -29,12 +30,6 @@ const Contact = () => {
             <a href='https://api.whatsapp.com/send?phone=+917807883034 target="_blank"'>Send a message</a>
           </article>
         </div>
-          <form action="">
-            <input type="text" name='name' placeholder='Your Full Name' required/>
-            <input type="email" name="email" placeholder='Email' required />
-            <textarea name='message' rows="7" placeholder='Message Me' required></textarea>
-            <button type='submit' className='btn btn-primary' >Send Message</button>
-          </form>
       </div>
     </section>
   )
