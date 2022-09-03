@@ -15,13 +15,13 @@ const Contact = () => {
             <MdEmail className='con__op__icon'/>
             <h4>Email</h4>
             <h4>sarveshgeepathak@gmail.com</h4>
-            <a href='mailto:sarveshgeepathak@gmail.com' target="_blank">Send a message</a>
+            <a href='mailto:sarveshgeepathak@gmail.com' target="_blank" rel="noopener noreferrer">Send a message</a>
           </article>
           <article className='con__op'>
             <FaTelegram className='con__op__icon'/>
             <h4>Telegram</h4>
             <h5>Sarvesh Pathak</h5>
-            <a href='https://t.me/917807883034 ' target="_blank">Send a message</a>
+            <a href='https://t.me/917807883034 ' target="_blank" rel="noopener noreferrer">Send a message</a>
           </article>
           <article className='con__op'>
             <RiWhatsappFill className='con__op__icon'/>

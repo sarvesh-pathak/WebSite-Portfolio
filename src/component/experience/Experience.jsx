@@ -15,7 +15,7 @@ const Experience = () => {
             <img src={imgt} alt="" className='exp_img'/>
           </div>
           <h3>This website</h3>
-          <a href='https://github.com/sarvesh-pathak/WebSite-Portfolio' className='btn' target="_blank">GITHUB</a>
+          <a href='https://github.com/sarvesh-pathak/WebSite-Portfolio' className='btn' target="_blank" rel="noopener noreferrer">GITHUB</a>
         </article>
 
         <article className='project_items'>
@@ -23,7 +23,7 @@ const Experience = () => {
             <img src={imgt1} alt="" className='exp_img'/>
           </div>
           <h3>Credit Card Fraud Detection</h3>
-          <a href='https://github.com/sarvesh-pathak/Fraud_Detection' className='btn' target="_blank">GITHUB</a>
+          <a href='https://github.com/sarvesh-pathak/Fraud_Detection' className='btn' target="_blank" rel="noopener noreferrer">GITHUB</a>
         </article>
 
         <article className='project_items'>
@@ -31,7 +31,7 @@ const Experience = () => {
             <img src={imgt2} alt="" className='exp_img'/>
           </div>
           <h3>Inventory Management System</h3>
-          <a href='https://github.com/sarvesh-pathak/Inventory_Management' className='btn' target="_blank">GITHUB</a>
+          <a href='https://github.com/sarvesh-pathak/Inventory_Management' className='btn' target="_blank" rel="noopener noreferrer">GITHUB</a>
         </article>
 
       </div>
