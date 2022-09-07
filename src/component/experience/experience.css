@@ -30,5 +30,24 @@
     
 }
 @media screen and (max-width:600px) {
- 
+    .projects{
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+        position: relative;
+        right: 2rem;
+    }
+    .exp_img{
+        width: 13rem;
+        height: 7rem;
+        border-radius: 1.5rem;
+    }
+    .project_items{
+        background: var(--color-bg-variant);
+        padding: 1rem;
+        border-radius: 2rem;
+        border:1px solid transparent;
+        transition: var(--transition);
+        width: 15rem;
+    }
 }

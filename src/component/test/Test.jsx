@@ -24,7 +24,7 @@ export default class Test extends React.Component{
             <div className='pppp'>
           <article className='Details1'>
               <GiAchievement className='Icons'/>
-              <h4>I Got Certifed by IBM</h4>
+              <h4 >I Got Certifed by IBM</h4>
               <small className='text-ligth'>August</small></article>
               </div>
             </div>
