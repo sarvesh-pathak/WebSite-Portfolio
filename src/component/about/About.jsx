@@ -6,7 +6,7 @@ import{MdOutlineSportsMotorsports} from "react-icons/md"
 const About = () => {
   return (
     <section id='about'>
-     <h2 className='about__cards'>Get To Know About Me</h2>
+     <h2>Get To Know About Me</h2>
      <div className='container about__container'>
      <div className='about__me'>
       <div className='about__me-image'>
