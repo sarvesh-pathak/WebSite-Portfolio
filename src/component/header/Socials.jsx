@@ -3,7 +3,7 @@ import{BsLinkedin} from "react-icons/bs"
 const Socials = () => {
   return (
     <div className='Socials'>
-        <a href='https://www.linkedin.com/in/sarvesh-pathak' target="blank"><BsLinkedin size={70}/></a>
+        <a href='https://linkedin.com/in/sarvesh-pathak-86812b219' target="blank"><BsLinkedin size={70}/></a>
     </div>
   )
 }
