@@ -66,6 +66,24 @@ export default class Test extends React.Component{
             <div className='pppp'>
           <article className='Details1'>
               <GiAchievement className='Icons'/>
+              <h4>Got placed under top 100 globally in Meta Global Hackathon.
+                     and top 50 in Asia Pacific Region.
+              </h4>
+              <small className='text-ligth'>28-09-2022</small></article>
+              </div>
+            </div>
+            <div className='test__card'>
+            <div className='pppp'>
+          <article className='Details1'>
+              <GiAchievement className='Icons'/>
+              <h4>Got Nvidia Fundamentals of Deep Learning Certificate</h4>
+              <small className='text-ligth'>03-10-2022</small></article>
+              </div>
+            </div>
+            <div className='test__card'>
+            <div className='pppp'>
+          <article className='Details1'>
+              <GiAchievement className='Icons'/>
               <h4>Working On Getting Internship</h4>
               <small className='text-ligth'>........</small></article>
               </div>

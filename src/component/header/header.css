@@ -49,9 +49,27 @@ transform: rotate(90deg);
 font-size:larger;
 }
 @media screen and (max-width:1024px) {
-    header{
-        height: 68vh;
+    h header{
+        height: 100vh;
        }
+       .Socials,.scroll_down{
+        margin: -9%;
+        margin-left: 2%;
+        display: relative;
+       }
+       .me{
+        background: transparent;
+        width: 44rem;
+        height: 44rem;
+        z-index: -10;
+        margin-left: 5rem;
+        position: absolute;
+        left: calc(40% - 14rem);
+        margin-top: 0.5rem;
+        border-radius: 5rem 5rem 5 0;
+        overflow: hidden;
+        padding: 2rem 1rem 1rem 1rem;
+    }
 }
 @media screen and (max-width:600px) {
    header{

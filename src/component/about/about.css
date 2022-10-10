@@ -64,21 +64,42 @@
  color: var(--color-bg);
  border-color: transparent
 }
+@media screen and (max-width:1280px) {
+  .about__me-image{
+    display: none;
+  }
+}
 @media screen and (max-width:1024px) {
-    .about__me{
-        display: none;
-    }
-    .mi{
-        margin: 1rem 0 1.5rem;
-    }
-    .about__me{
-        width: 110%;
-        aspect-ratio: 1.3/1;
-        border-radius:5rem;
-        background: linear-gradient(45deg,transparent,var(--color-primary),transparent);
-        display: grid;
-        place-items: center;
-    }
+  .about__container{
+    grid-template-columns: 1fr;
+    gap: 0;
+}
+.about__me{
+    width: 65%;
+    margin: 1rem;
+}
+.mi{
+    margin: 1rem 0 1.5rem;
+}
+.about__me{
+  display: none;
+}
+.about__cards{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 20%;
+}
+.about__card{
+  position: relative;
+  right: 2rem;
+}
+.about__content{
+    text-align: center;
+}
+.mi{
+    margin: 1.5rem 0;
+}
 }
 @media screen and (max-width:600px) {
     .about__container{

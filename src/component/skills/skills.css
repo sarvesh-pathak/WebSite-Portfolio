@@ -26,11 +26,25 @@
     row-gap: 2rem;
 }
 @media screen and (max-width:1024px) {
+    .Skills{
+        width: 32rem;
+        position: relative;
+        margin-top: 10%;
+        right: 30%;
+    }
+    .Content{
+        position: relative;
+        right: 20%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 2rem;
+        gap: 1.5rem;
+    }
     
 }
 @media screen and (max-width:600px) {
     .Skills{
-        width: 20rem;
+        width: 30rem;
         position: relative;
         margin-top: 10%;
         right: 30%;
