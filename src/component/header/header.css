@@ -33,13 +33,17 @@ header{
     background: transparent;
     width: 84rem;
     height: 84rem;
-    z-index: -10;
+    z-index: 10;
     position: absolute;
-    left: calc(40% - 14rem);
+    left: calc(10% - 14rem);
     margin-top: 0.5rem;
     border-radius: 12rem 12rem 12 0;
     overflow: hidden;
     padding: 2rem 1rem 1rem 1rem;
+}
+.video{
+    position:relative;
+    height:32%;width:24%;
 }
 .scroll_down{
 position:absolute;
@@ -48,8 +52,8 @@ bottom: 5rem;
 transform: rotate(90deg);
 font-size:larger;
 }
-@media screen and (max-width:1024px) {
-    h header{
+@media screen and ((max-width:1220px) ) {
+     header{
         height: 100vh;
        }
        .Socials,.scroll_down{
@@ -64,14 +68,17 @@ font-size:larger;
         z-index: -10;
         margin-left: 5rem;
         position: absolute;
-        left: calc(40% - 14rem);
+        left: calc(10%-2);
         margin-top: 0.5rem;
         border-radius: 5rem 5rem 5 0;
         overflow: hidden;
         padding: 2rem 1rem 1rem 1rem;
     }
+    .me{
+        display: none;
+    }
 }
-@media screen and (max-width:600px) {
+@media screen and ((max-width:600px)) {
    header{
     height: 100vh;
    }
@@ -81,10 +88,13 @@ font-size:larger;
     font-size: x-large;
    }
    .me{
+    display: none;
+}
+   .me{
     background: transparent;
     width: 44rem;
     height: 44rem;
-    z-index: -10;
+    z-index: 10;
     margin-left: 5rem;
     position: absolute;
     left: calc(40% - 14rem);
@@ -93,25 +103,4 @@ font-size:larger;
     overflow: hidden;
     padding: 2rem 1rem 1rem 1rem;
 }
-}
-@media screen and (max-height:740px)  {
-    header{
-     height: 100vh;
-    }
-    .Socials,.scroll_down{
-     display: none;
-    }
-    .me{
-     background: transparent;
-     width: 44rem;
-     height: 44rem;
-     z-index: -10;
-     margin-left: 5rem;
-     position: absolute;
-     left: calc(40% - 14rem);
-     margin-top: 0.5rem;
-     border-radius: 5rem 5rem 5 0;
-     overflow: hidden;
-     padding: 2rem 1rem 1rem 1rem;
- }
 }

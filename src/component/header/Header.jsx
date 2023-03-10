@@ -1,7 +1,7 @@
 import React from 'react'
 import "./header.css"
 import CTA from "./CTA"
-import ME from '../../needs/abc.gif'
+import ME from '../../needs/My Movie.mp4'
 import Socials from './Socials'
 const Header = () => {
   return (
@@ -13,7 +13,10 @@ const Header = () => {
         <CTA/>
         <Socials/>
         <div className='me'>
-          <img src={ME} alt="me"/>
+        <video width="640" height="480" controls autoplay>
+        <source src={ME} type="video/mp4"></source>
+        </video>
+
         </div>
         <a href='#contact' className='scroll_down'>Scroll down</a>
       </div>
