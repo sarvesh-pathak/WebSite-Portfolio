@@ -13,7 +13,7 @@ const Header = () => {
         <CTA/>
         <Socials/>
         <div className='me'>
-        <video width="640" height="480" controls autoplay>
+        <video controls autoplay>
         <source src={ME} type="video/mp4"></source>
         </video>
 
