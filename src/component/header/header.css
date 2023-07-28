@@ -33,12 +33,11 @@ header{
 }
 .me{
     display: flex;
-    background: transparent;
-    width: 44rem;
-    height: 34rem;
+    width: 24rem;
+    height: 24rem;
     z-index: 10;
     position: relative;
-    left: calc(40% - 14rem);
+    left: calc(55% - 14rem);
     margin-top: 0.5rem;
     border-radius: 12rem 12rem 12 0;
     overflow: hidden;
@@ -63,11 +62,11 @@ font-size:larger;
        .me{
         display: flex;
         background: transparent;
-        width: 44rem;
-        height: 34rem;
+        width: 14rem;
+        height: 24rem;
         z-index: 10;
         position: relative;
-        left: calc(30% - 14rem);
+        left: calc(80% - 14rem);
         margin-top: 0.5rem;
         border-radius: 12rem 12rem 12 0;
         overflow: hidden;
@@ -86,8 +85,8 @@ font-size:larger;
    .me{
     display: flex;
     background: transparent;
-    width: 14rem;
-    height: 14rem;
+    width: 4rem;
+    height: 4rem;
     z-index: 10;
     position: relative;
     left: calc(70% - 14rem);
